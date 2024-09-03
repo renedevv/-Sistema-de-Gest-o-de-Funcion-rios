@@ -1,0 +1,33 @@
+# Sistema de Gestão de Funcionários
+
+## Descrição
+
+Este projeto é um Sistema de Gestão de Funcionários desenvolvido para gerenciar as informações dos funcionários, departamentos e salários em uma empresa. O sistema permite realizar operações de CRUD (Create, Read, Update, Delete) e garante a integridade referencial dos dados.
+
+## Funcionalidades
+
+- Gerenciamento de funcionários, departamentos e salários.
+- Inserção, consulta, atualização e remoção de registros.
+- Relacionamento entre tabelas utilizando chaves estrangeiras.
+
+## Estrutura do Banco de Dados
+
+- **Departamentos**: Armazena os nomes dos departamentos da empresa.
+- **Funcionarios**: Armazena informações sobre os funcionários.
+- **Salarios**: Registra os salários dos funcionários ao longo do tempo.
+
+## Como Usar
+
+1. Clone este repositório.
+2. Execute o script SQL fornecido para criar o banco de dados e as tabelas.
+3. Insira dados iniciais para testar o sistema.
+4. Utilize os comandos de consulta, atualização e deleção conforme necessário.
+
+## Pré-requisitos
+
+- MySQL ou outro SGBD compatível.
+- Acesso a uma interface de linha de comando ou ferramenta de gerenciamento de banco de dados.
+
+## Licença
+
+Este projeto é licenciado sob a MIT License. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
